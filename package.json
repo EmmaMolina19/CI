@@ -1,0 +1,26 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "start": "node ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmmaMolina19/CI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EmmaMolina19/CI/issues"
+  },
+  "homepage": "https://github.com/EmmaMolina19/CI#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "supertest": "^6.1.3"
+  }
+}
