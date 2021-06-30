@@ -1,4 +1,4 @@
-const app = require('../app');
+const app = require('../index');
 const request = require('supertest');
 
 describe('GET /', () => {
@@ -6,6 +6,6 @@ describe('GET /', () => {
     it('Prueba mensaje', async () => {
        await request(app)
             .get('/')
-            .expect('Hello Word!'); 
+            .expect('Aprobado'); 
     });
 })

@@ -8,6 +8,9 @@ cache:
 node_js:
   - '16'
 
+script:
+  - npm run test
+
 notifications:
   slack: pruebaisespacio:lexNQuBGm3hQo05XGMDARagV
 
