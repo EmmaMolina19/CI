@@ -10,3 +10,12 @@ node_js:
 
 notifications:
   slack: pruebaisespacio:lexNQuBGm3hQo05XGMDARagV
+
+deploy:
+  provide: heroku
+  skip-cleanup: true
+  keep-history: true
+  api_key: 8f757e44-1d6d-45e9-a2bd-be6cde8f9c27
+  app: integracionis
+  on:
+    repo: EmmaMolina19/CI
