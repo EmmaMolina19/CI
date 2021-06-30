@@ -8,5 +8,5 @@ cache:
 node_js:
   - '16'
 
-  notifications:
-    slack: Tw53k0V1z7S9bUPsQ02WqVQh
+notifications:
+  slack: Tw53k0V1z7S9bUPsQ02WqVQh
