@@ -3,7 +3,7 @@ const app = express()
 
 
 app.get('/', async (req, res) => {
-  res.send('desaprobado')
+  res.send(desaprobado)
 })
 
 module.exports = app
