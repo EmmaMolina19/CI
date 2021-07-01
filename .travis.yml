@@ -11,8 +11,7 @@ node_js:
 addons:
   sonarcloud:
     organization: "emmamolina19"
-    token:
-      secure: "51beeb75411d40d35e68a83d5494ac52749f38ff"
+    token: "51beeb75411d40d35e68a83d5494ac52749f38ff" 
 
 script:
   - npm run test
