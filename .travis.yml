@@ -15,7 +15,7 @@ addons:
 
 script:
   - npm run test
-  - npm run test && npm run tslint && sonar-scanner
+  - sonar-scanner
 
 notifications:
   slack: pruebaisespacio:lexNQuBGm3hQo05XGMDARagV
