@@ -1,5 +1,11 @@
 language: node_js
 
+addons:
+  sonarcloud:
+    organization: "emmamolina19"
+    token:
+      secure: "22b0e7be183ddc5ad6f13ef329e150a25a58e149"
+
 cache:
   directories:
     - node_modules
@@ -10,6 +16,7 @@ node_js:
 
 script:
   - npm run test
+  - sonar-scanner
 
 notifications:
   slack: pruebaisespacio:lexNQuBGm3hQo05XGMDARagV
