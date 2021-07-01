@@ -4,7 +4,7 @@ addons:
   sonarcloud:
     organization: "emmamolina19"
     token:
-      secure: "22b0e7be183ddc5ad6f13ef329e150a25a58e149"
+      secure: "d66d81b997b4e686522a089bb01328f8d6dfa90d"
 
 cache:
   directories:
