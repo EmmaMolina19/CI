@@ -7,10 +7,3 @@ app.get('/', async (req, res) => {
 })
 
 module.exports = app
-
-//esto
-//es
-//una
-//prueba
-//para
-//sonarcloud
